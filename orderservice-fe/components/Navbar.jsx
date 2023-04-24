@@ -23,12 +23,12 @@ const NavBar = () => {
                                     <Link href="/orders">all orders</Link>
                                 </li>
                                 <li>
-                                    <Link href="/orders/add">new orders</Link>
+                                    <Link href="/orders/add">new order</Link>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <Link href="/login">register/login</Link>
+                            <Link href="/about">about</Link>
                         </li>
                     </ul>
                 </nav>

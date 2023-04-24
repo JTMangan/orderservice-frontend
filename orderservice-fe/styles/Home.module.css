@@ -1,0 +1,22 @@
+
+.titleContainer{
+    width: 100%;
+    max-width: 1000px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+    margin: 0 auto;
+}
+
+.pageTitle{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.pageContainer{
+    padding: 10% 10%;
+    margin: 40px auto 0;
+    text-align: center;
+}

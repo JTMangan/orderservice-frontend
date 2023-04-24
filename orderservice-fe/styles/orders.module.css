@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.tableContainer{
+    padding: 5% 5%;
+    margin: auto 0;
+}
+
+.table thead {
+    background-color: beige;
+}
+
+.table thead tr th {
+    padding: 12px;
+    vertical-align: top;
+    letter-spacing: 0.35px;
+}
+
+.table tbody tr td{
+    letter-spacing: 0.35px;
+    padding: 8px;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+@media (max-width: 768px) {
+    .table thead{
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table td {
+        display: block;
+        width:auto
+    }
+    .table tr{
+        border: 1px solid green;
+        margin-bottom: 15px;
+    }
+
+}

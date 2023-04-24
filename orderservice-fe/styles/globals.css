@@ -8,7 +8,7 @@
 
 body{
     min-height: 100vh;
-    /*background: url(../images/1.jpg) no-repeat;*/
+    background: url(../images/luddy.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -35,6 +35,13 @@ header label{
     cursor: pointer;
     display: none;
 }
+
+.tableContainer{
+    padding: 10% 10%;
+    margin: 40px auto 0;
+
+}
+
 
 @media(max-width:991px){
     header{
