@@ -1,12 +1,12 @@
-let host = "orderservice-production-9c58.up.railway.app";
+let hostname = "http://orderservice-production-9c58.up.railway.app";
 
 let findAllOrders = () => {
- return fetch(host + '/orders')
+ return fetch(hostname + '/orders')
         .then(x => x.json());
 };
 
 let saveOrder = (order) => {
-    return fetch(host + "/orders", {
+    return fetch(hostname + "/orders", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
