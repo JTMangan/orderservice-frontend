@@ -1,4 +1,4 @@
-let host = "http://localhost:8081";
+let host = "orderservice-production-9c58.up.railway.app";
 
 let findAllOrders = () => {
  return fetch(host + '/orders')
